@@ -42,7 +42,7 @@ export const RateTable = () => {
                 <tr>
                     <th>Код</th>
                     <th>Валюта</th>
-                    <th>Курс (по отношению к usd)</th>
+                    <th>Курс (по отношению к {baseVal})</th>
                 </tr>
                 </thead>
                 <tbody>
