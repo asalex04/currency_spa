@@ -26,7 +26,7 @@ export const Navbar = ({className}: NavbarProps) => {
         }
         fetchData()
 
-    }, [])
+    }, [dispatch])
     return (
         <>
             {loading ?
